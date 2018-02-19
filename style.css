@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
+.top-cat {
+	margin-top: -25px;
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.top-cat span {
+	text-align: center;
+	background-color: white;
+	font-size: 8px;
+	padding: 3px 15px;
+	border: 1px solid black;
+}
+
 .topnav {
 	background-color: white;
 	padding: 5px auto;
@@ -13,8 +28,9 @@
 }
 
 .topnav table {
+	margin: 5px auto;
 	float: right;
-	width: 70%;
+	width: 80%;
 }
 
 .topnav td {
@@ -35,13 +51,19 @@
 	color: black;	
 }
 
-input#search {
-	border: 5px solid black;
+span#search {
 	float: right;
+	border: 1px solid black;
+}
+
+input#search {
+	border: 1px solid black;
+	float: left;
+	width: 200px;
 }
 button#search {
-	border: 5px solid black;
-	float: right;
+	border: 1px solid black;
+	float: left;
 	color: white;
 	background-color: black;
 }
@@ -138,7 +160,7 @@ table#footer td {
 
 .c-1 {
 	width: 28%;
-	text-align: justify;
+	text-align: center;
 	overflow: auto;
 }
 
@@ -212,14 +234,6 @@ button#search {
 			text-align: center;
 			display: block;
 	}
-
-.c-1 {
-	width: 100%;
-}
-
-.c-2 {
-	width: 100%;
-}
 
 #first-footer {
 	background-image: url(none);
