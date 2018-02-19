@@ -213,6 +213,14 @@ button#search {
 			display: block;
 	}
 
+.c-1 {
+	width: 100%;
+}
+
+.c-2 {
+	width: 100%;
+}
+
 #first-footer {
 	background-image: url(none);
 }
